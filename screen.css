@@ -5,11 +5,33 @@ a.active {
 
 .btn-group{
     display: block;
-  margin-left: 200px;
+  margin-left: 150px;
   margin-right: auto;
+  margin-top: 30px;
+  padding: 10px;
   
 }
 
 .filter{
     float: right;
+    margin-top: 30px;
+    
 }
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    
+  }
