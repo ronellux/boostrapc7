@@ -2,3 +2,14 @@
 a.active {
     font-weight: bold;
 }
+
+.btn-group{
+    display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  
+}
+
+.filter{
+    float: right;
+}
